@@ -1,0 +1,73 @@
+.main-navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px;
+    align-items: center;
+}
+
+.navbar-logo{
+    margin: 10px;
+    margin-left: 3rem;
+    width: 30rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.navbar-logo>p{
+    text-align: left;
+    font-family: 'Inter', serif;
+    font-weight: 500;
+}
+
+.navbar-content{
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    width: 90%;
+    gap: 10rem;
+}
+
+.navbar-content>p{
+    margin: 12px;
+    padding: 6px 6px;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    width: 12%;
+}
+
+.signup-container>p{
+    margin: 12px;
+    padding: 6px 6px;
+}
+
+.signup-register{
+    border: 1px solid black;
+    padding: 6px 6px;
+}
+
+#search-icon{
+    width: 30px;
+    height: 30px;
+    margin: 12px 12px;
+    margin-right: 14px;
+}
+
+#cart-icon{
+    width: 30px;
+    height: 30px;
+    margin: 12px 12px;
+}
+
+.main-navbar{
+    /* border: 2px solid #000000; */
+    border-radius: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

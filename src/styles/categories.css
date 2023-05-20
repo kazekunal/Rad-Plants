@@ -1,0 +1,35 @@
+.cat-main{
+    margin-top: 85rem;
+}
+
+.cat-text1{
+    font-size: 4rem;
+    font-family: 'Playfair Display','Inter';
+}
+
+.cat-image-tray{
+    display: flex;
+    flex-direction: row;
+    margin: 12px 12px;
+}
+
+#cat-img{
+    width: 29rem;
+    height: 29rem;
+    margin: 12px 12px;
+}
+
+#cat-img-txt{
+    font-size: 2rem;
+    font-family: 'Playfair Display',serif;
+}
+
+.cat-text2{
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-family: 'Inter',serif;
+}
+
+
