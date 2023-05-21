@@ -8,12 +8,12 @@ function Navbar() {
     <>
         <div className='main-navbar'>
             <div className='navbar-logo'>
-                <p>Rad Plants</p>
+                <p id='navbar-logo-txt'>Rad Plants</p>
             </div>
             <div className='navbar-content'>
-                <p>Home</p>
-                <p>Catalogue</p>
-                <p>Contact</p>
+                <p id='navbar-content-txt1'>Home</p>
+                <p id='navbar-content-txt2'>Catagories</p>
+                <p id='navbar-content-txt3'>Contact Us</p>
             </div>
             <div className='signup-container'>
                 <img id="search-icon" src={search}/>

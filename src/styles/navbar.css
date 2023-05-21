@@ -9,14 +9,20 @@
     margin: 10px;
     margin-left: 3rem;
     width: 30rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
 }
 
 .navbar-logo>p{
+    margin: 0px 0px;
     text-align: left;
-    font-family: 'Inter', serif;
-    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 27px;
+    cursor: pointer;
+    width: 134px;
+}
+
+#navbar-logo-txt:hover{
+    color: green;
 }
 
 .navbar-content{
@@ -24,12 +30,26 @@
     flex-direction: row;
     margin: 12px;
     width: 90%;
-    gap: 10rem;
+}
+
+.navbar-content:hover{
+    color: rgb(35, 215, 35);
+}
+
+#navbar-content-txt1{
+    margin-left: 9rem;
+    
+}
+
+#navbar-content-txt1,#navbar-content-txt2,#navbar-content-txt3{
+    margin-right: 3rem;
+    cursor: pointer;
 }
 
 .navbar-content>p{
-    margin: 12px;
-    padding: 6px 6px;
+    margin: 0px 0px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
 }
 
 .signup-container{
@@ -54,12 +74,14 @@
     height: 30px;
     margin: 12px 12px;
     margin-right: 14px;
+    cursor: pointer;
 }
 
 #cart-icon{
     width: 30px;
     height: 30px;
     margin: 12px 12px;
+    cursor: pointer;
 }
 
 .main-navbar{
