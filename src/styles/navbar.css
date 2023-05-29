@@ -25,6 +25,18 @@
     color: green;
 }
 
+#navbar-content-txt1:hover{
+    color: rgb(83, 203, 83);
+}
+
+#navbar-content-txt2:hover{
+    color: rgb(83, 203, 83);
+}
+
+#navbar-content-txt3:hover{
+    color: rgb(83, 203, 83);
+}
+
 .navbar-content{
     display: flex;
     flex-direction: row;
@@ -32,13 +44,9 @@
     width: 90%;
 }
 
-.navbar-content:hover{
-    color: rgb(35, 215, 35);
-}
 
 #navbar-content-txt1{
     margin-left: 9rem;
-    
 }
 
 #navbar-content-txt1,#navbar-content-txt2,#navbar-content-txt3{
