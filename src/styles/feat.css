@@ -40,7 +40,7 @@
     margin-left: 7rem;
     margin-right: 6rem;
     /* align-self: center; */
-    cursor: pointer;
+    cursor: default;
 }
 
 .hero-shop-btn:hover{
@@ -54,7 +54,7 @@
     margin-left: 7rem;
     margin-right: 6rem;
     /* align-self: center; */
-    cursor: ;
+    cursor: pointer;
 }
 
 .hero-left{
@@ -108,5 +108,23 @@
 .hero-img-center-txt1,.hero-img-right-txt1{
     color: grey;
     font-size: 56px;
+}
+
+.icon{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 17rem;
+    margin-left: -3rem;
+}
+
+.icon-hero{
+    width: 4rem;
+    height: 4rem;
+    z-index: 1000;
+    /* cursor: pointer; */
+}
+
+.icon-hero:hover{
+    cursor: pointer;
 }
 

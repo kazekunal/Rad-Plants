@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/feat.css'
 import in1 from '../icons/plant-in1.jpg'
 import in2 from '../icons/plant-in2.jpg'
+import iconright from '../icons/iconright.png'
 
 function Feat() {
   return (
@@ -28,6 +29,9 @@ function Feat() {
             <img src={in2} className='hero-img-2'/>
             <span className='hero-img-right-txt1'> Plant 2</span>
             <span className='hero-img-right-txt2'> $$$</span>
+          </div>
+          <div className='icon'>
+            <img src={iconright} className="icon-hero"/>
           </div>
         </div>
     </>

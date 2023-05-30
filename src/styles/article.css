@@ -1,0 +1,65 @@
+.article-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.article-content-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-content-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-img-1{
+    width: 41rem;
+    height: 29rem;
+    margin-left: 2rem;
+    margin-top: 10rem;
+}
+
+.article-img-2{
+    width: 41rem;
+    height: 29rem;
+    margin-top: 10rem;
+}
+
+.card-content-left,.card-content-right{
+    width: 12rem;
+    height: 5rem;
+    background-color: white;
+    color: black;
+    margin-top: -6rem;
+    margin-left: 31rem;
+    margin-bottom: 4rem;
+    font-size: 16px;
+    text-align: left;
+}
+
+.card-content-right{
+    margin-left: 29rem;
+}
+
+.card-content-leftpara{
+    margin-bottom: -12px;
+}
+
+.card-content-rightpara{
+    margin-bottom: -12px;
+}
+
+.card-content-leftno,.card-content-rightno{
+    color: grey;
+    font-style: 'Playfair Display';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card-content-desc1,.card-content-desc2{
+    width: 46rem;
+    height: 5rem;
+    font-family: serif;
+    font-size: 24px;
+}
